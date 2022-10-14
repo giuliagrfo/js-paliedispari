@@ -23,6 +23,20 @@ let sum = pcRandomNumber + userNumber
 console.log(sum);
 
 // stabilire se la somma dei due numeri è pari o dispari usando function
+function sumPariDispari(number) {
+    if (number % 2 == 0) {
+        return true
 
+    } else {
+        return false
+
+    }
+}
+
+if (sumPariDispari(sum)) {
+    console.log('La somma dei due numeri è pari');
+} else {
+    console.log('La somma dei due numeri è dispari');
+}
 
 // dichiarare chi ha vinto
