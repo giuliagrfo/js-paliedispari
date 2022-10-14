@@ -25,13 +25,16 @@ console.log(sum);
 // stabilire se la somma dei due numeri è pari o dispari usando function
 function sumPariDispari(number) {
     if (number % 2 == 0) {
+        
         return true
-
+        
     } else {
         return false
-
+        
     }
 }
+
+let even = 'pari';
 
 if (sumPariDispari(sum)) {
     console.log('La somma dei due numeri è pari');
@@ -41,11 +44,8 @@ if (sumPariDispari(sum)) {
 
 // dichiarare chi ha vinto
 
-if (sumPariDispari(sum)) {
+if (userPariDispari == even) {
     console.log('Hai vinto!');
-
-} else if (pcRandomNumber == userNumber) {
-    console.log('Pareggio');
 
 } else {
     console.log('Hai perso');
