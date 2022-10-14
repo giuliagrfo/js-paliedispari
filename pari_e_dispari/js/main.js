@@ -40,3 +40,13 @@ if (sumPariDispari(sum)) {
 }
 
 // dichiarare chi ha vinto
+
+if (sumPariDispari(sum)) {
+    console.log('Hai vinto!');
+
+} else if (pcRandomNumber == userNumber) {
+    console.log('Pareggio');
+
+} else {
+    console.log('Hai perso');
+}
