@@ -4,3 +4,11 @@ console.log(userWord);
 
 // Creo una funzione per capire se la parola inserita è palindroma invertendo l'ordine delle lettere della stringa
 
+function wordReverse(word) {
+    
+    return word.split('').reverse('').join('');
+  
+}
+
+const reverseUserWord = wordReverse(userWord)
+console.log(reverseUserWord);
